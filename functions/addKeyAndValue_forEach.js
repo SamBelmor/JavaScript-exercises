@@ -3,10 +3,12 @@ a value. This function should return the array of objects after each key and val
 object in the array.*/
 
 let addKeyAndValue = (array,key,value) => {
+  let newArray = [];
   array.forEach(element => {
     element[key] = value;
-    console.log(element);
+    newArray.push(element);    
   });
+  console.log(newArray);
 }
 
 
