@@ -11,5 +11,4 @@ let addKeyAndValue = (array,key,value) => {
   console.log(newArray);
 }
 
-
-addKeyAndValue([{name: 'Elie'},{name: 'Tim'},{name: 'Elie'}], "isInstructor", true); 
+addKeyAndValue([{name: 'Elie'},{name: 'Tim'},{name: 'Elie'}], "isInstructor", true);
