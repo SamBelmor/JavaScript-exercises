@@ -8,7 +8,8 @@ let addKeyAndValue = (array,key,value) => {
     element[key] = value;
     newArray.push(element);    
   });
-  console.log(newArray);
+  // console.log(newArray);
+  return newArray;
 }
 
-addKeyAndValue([{name: 'Elie'},{name: 'Tim'},{name: 'Elie'}], "isInstructor", true);
+console.log(addKeyAndValue([{name: 'Elie'},{name: 'Tim'},{name: 'Elie'}], "isInstructor", true));
