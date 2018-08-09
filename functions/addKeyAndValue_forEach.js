@@ -8,7 +8,7 @@ let addKeyAndValue = (array,key,value) => {
     element[key] = value;
     newArray.push(element);    
   });
-  // console.log(newArray);
+  
   return newArray;
 }
 
